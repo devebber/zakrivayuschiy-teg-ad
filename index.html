@@ -29,7 +29,7 @@
             дискету, чтобы продолжить
         </div>
     </div>
-    <button class="dialog__button" onclick="document.querySelector('#dialog-id').close()">
+    <button type="button" class="dialog__button" onclick="document.querySelector('#dialog-id').close()">
         <span class="button__text">OK</span>
     </button>
 </dialog>
@@ -311,7 +311,7 @@
             </div>
         </section>
 
-        <button class="save-button" onclick="window['dialog-id'].showModal();">
+        <button type="button" class="save-button" onclick="window['dialog-id'].showModal();">
             <svg class="save-button__floppy" xmlns="http://www.w3.org/2000/svg" width="21" height="21">
                 <use href="#floppy" fill="white"/>
             </svg>
