@@ -29,13 +29,9 @@
             дискету, чтобы продолжить
         </div>
     </div>
-    <form method="dialog">
-        <button class="dialog__button">
-            <span class="button__text">
-                OK
-            </span>
-        </button>
-    </form>
+    <button class="dialog__button" onclick="document.querySelector('#dialog-id').close()">
+        <span class="button__text">OK</span>
+    </button>
 </dialog>
 <header class="header">
     <div class="container header__container">
