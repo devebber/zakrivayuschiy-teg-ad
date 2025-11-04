@@ -1,0 +1,25 @@
+.header {
+    padding: 100px 0;
+    font-family: var(--accent-font-family), system-ui, sans-serif;
+    height: clamp(667px, 561.464px + 27.773vw, 960px);
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: clamp(120px, 0.8vw + 117px, 128px) 0;
+    background-color: white;
+    border: 2px solid var(--black-main-color);
+}
+
+.header__title {
+    font-size: clamp(49px, 1.6vw + 43px, 65px);
+}
+
+.header__subtitle {
+    text-transform: uppercase;
+    font-size: clamp(14px, 10.758px + 0.853vw, 23px)
+}
